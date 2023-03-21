@@ -1,0 +1,45 @@
+Script started on Thu 03 Nov 2022 05:25:59 PM PDT
+]0;rath014@empress:~/CS471Progs/HW5-PrologProgFiles[?1034h[rath014@empress HW5-PrologProgFiles]$ gprolog
+GNU Prolog 1.4.4 (64 bits)
+Compiled Jan 15 2014, 20:38:19 with gcc
+By Daniel Diaz
+Copyright (C) 1999-2013 Daniel Diaz
+| ?- consult('ESezaxample'('ESexample').
+compiling /home/students/rath014/CS471Progs/HW5-PrologProgFiles/ESexample.pl for byte code...
+/home/students/rath014/CS471Progs/HW5-PrologProgFiles/ESexample.pl:21-22: warning: singleton variables [Skin] for choose/5
+/home/students/rath014/CS471Progs/HW5-PrologProgFiles/ESexample.pl:29-30: warning: singleton variables [Skin] for choose/5
+/home/students/rath014/CS471Progs/HW5-PrologProgFiles/ESexample.pl:35-36: warning: singleton variables [W,H] for choose/5
+/home/students/rath014/CS471Progs/HW5-PrologProgFiles/ESexample.pl:43: warning: singleton variables [Hair,Skin,W,H] for choose/5
+/home/students/rath014/CS471Progs/HW5-PrologProgFiles/ESexample.pl:50: warning: singleton variables [Skin] for redish/2
+/home/students/rath014/CS471Progs/HW5-PrologProgFiles/ESexample.pl:52: warning: singleton variables [Hair] for redish/2
+/home/students/rath014/CS471Progs/HW5-PrologProgFiles/ESexample.pl compiled, 59 lines read - 3697 bytes written, 12 ms
+
+yes
+| ?- top.
+Hair color?brown.
+Skin Tone?fair.
+Weight? kg150.
+Height? cm300.
+You should wear a sage green dress
+
+true ? ;
+You should wear a T-shirt and jeans
+
+yes
+| ?- 3015fairbrowtop.
+Hair color?light_robrown.
+Skin Tone?tan.
+Weight? kg150.
+Height? cm300.
+You should wear a neon pink dress
+
+true ? ;
+You should wear a T-shirt and jeans
+
+(2 ms) yes
+| ?- 
+
+]0;rath014@empress:~/CS471Progs/HW5-PrologProgFiles[rath014@empress HW5-PrologProgFiles]$ exit
+exit
+
+Script done on Thu 03 Nov 2022 05:32:00 PM PDT

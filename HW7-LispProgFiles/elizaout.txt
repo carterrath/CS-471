@@ -1,0 +1,96 @@
+Script started on Sat 19 Nov 2022 07:45:19 PM PST
+]0;rath014@empress:~/CS471Progs/HW7-LispProgFiles[?1034h[rath014@empress HW7-LispProgFiles]$ clisp
+  i i i i i i i       ooooo    o        ooooooo   ooooo   ooooo
+  I I I I I I I      8     8   8           8     8     o  8    8
+  I  \ `+' /  I      8         8           8     8        8    8
+   \  `-+-'  /       8         8           8      ooooo   8oooo
+    `-__|__-'        8         8           8           8  8
+        |            8     o   8           8     o     8  8
+  ------+------       ooooo    8oooooo  ooo8ooo   ooooo   8
+
+Welcome to GNU CLISP 2.49 (2010-07-07) <http://clisp.cons.org/>
+
+Copyright (c) Bruno Haible, Michael Stoll 1992, 1993
+Copyright (c) Bruno Haible, Marcus Daniels 1994-1997
+Copyright (c) Bruno Haible, Pierpaolo Bernardi, Sam Steingold 1998
+Copyright (c) Bruno Haible, Sam Steingold 1999-2000
+Copyright (c) Sam Steingold, Bruno Haible 2001-2010
+
+Type :h and hit Enter for context help.
+
+[1]> [?1034h(load 'eliza.lsp)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+;; Loading file eliza.lsp ...
+;; Loaded file eliza.lsp
+T
+[2]> (mai[C[C[C[C[C[C
+Hi. My name is eliza. What is yours? corey
+Looking at my records you are 21 and SINGLE
+And you have 5 children.
+So tell me what is bothering you today: (ENCLOSE YOUR ANSWER IN PARENTHESES)
+(i am sad and angry)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(WHY ARE YOU SAD AND ANGRY)
+(i am[K[K
+*** - READ: input stream #<IO TERMINAL-STREAM> has reached its end
+The following restarts are available:
+ABORT          :R1      Abort main loop
+Break 1 [3]> (exi[C[C[C[C[C[C
+Bye.
+]0;rath014@empress:~/CS471Progs/HW7-LispProgFiles[rath014@empress HW7-LispProgFiles]$ /cs/recordhw elizaOut.txt
+You are already recording!  Into file elizaout.txt.
+  (no new recording has been started.)
+]0;rath014@empress:~/CS471Progs/HW7-LispProgFiles[rath014@empress HW7-LispProgFiles]$ clisp
+  i i i i i i i       ooooo    o        ooooooo   ooooo   ooooo
+  I I I I I I I      8     8   8           8     8     o  8    8
+  I  \ `+' /  I      8         8           8     8        8    8
+   \  `-+-'  /       8         8           8      ooooo   8oooo
+    `-__|__-'        8         8           8           8  8
+        |            8     o   8           8     o     8  8
+  ------+------       ooooo    8oooooo  ooo8ooo   ooooo   8
+
+Welcome to GNU CLISP 2.49 (2010-07-07) <http://clisp.cons.org/>
+
+Copyright (c) Bruno Haible, Michael Stoll 1992, 1993
+Copyright (c) Bruno Haible, Marcus Daniels 1994-1997
+Copyright (c) Bruno Haible, Pierpaolo Bernardi, Sam Steingold 1998
+Copyright (c) Bruno Haible, Sam Steingold 1999-2000
+Copyright (c) Sam Steingold, Bruno Haible 2001-2010
+
+Type :h and hit Enter for context help.
+
+[1]> [?1034h(load 'eliza.lsp)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+;; Loading file eliza.lsp ...
+;; Loaded file eliza.lsp
+T
+[2]> (mai[C[C[C[C[C[C
+Hi. My name is eliza. What is yours? corey
+Looking at my records you are 21 and SINGLE
+And you have 5 children.
+So tell me what is bothering you today: (ENCLOSE YOUR ANSWER IN PARENTHESES)
+(i am sad and tired)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(WHY ARE YOU SAD AND TIRED)
+(i am a single dad of 5 children)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(YOU ARE A SINGLE DAD OF 5 CHILDREN)
+(i have been lonely)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(HOW LONG HAVE YOU BEEN LONELY)
+(five years[K)[C[C[C[C[C[C[C[C[C[C[C[C
+(TELL ME MORE ABOUT IT)
+(who should i date)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[?
+(WHOEVER YOU THINK)
+(where should i go)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[?
+(ANYWHERE YOU WANT)
+(are you even listening?)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(AM I EVEN LISTENING?)
+(what should i do?
+)
+(THAT IS A DIFFICULT QUESTION)
+(why is it a difficult question?)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(WHY DO YOU THINK?)
+(are you even a qualified psychiatrist?)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(OOPS OUR TIME IS UP. SEE YOU NEXT WEEK)
+NIL
+[3]> (exi[C[C[C[C[C[C
+Bye.
+]0;rath014@empress:~/CS471Progs/HW7-LispProgFiles[rath014@empress HW7-LispProgFiles]$ exit
+exit
+
+Script done on Sat 19 Nov 2022 07:52:53 PM PST

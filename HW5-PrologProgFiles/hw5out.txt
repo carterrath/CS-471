@@ -1,0 +1,32 @@
+Script started on Fri 04 Nov 2022 02:01:44 PM PDT
+]0;rath014@empress:~/CS471Progs/HW5-PrologProgFiles[?1034h[rath014@empress HW5-PrologProgFiles]$ logo/cs/recordhw esout.tgprolog[emacs ESexample.[11Pgprolog
+GNU Prolog 1.4.4 (64 bits)
+Compiled Jan 15 2014, 20:38:19 with gcc
+By Daniel Diaz
+Copyright (C) 1999-2013 Daniel Diaz
+| ?- consult('hw5'('hw5').
+compiling /home/students/rath014/CS471Progs/HW5-PrologProgFiles/hw5.pl for byte code...
+/home/students/rath014/CS471Progs/HW5-PrologProgFiles/hw5.pl compiled, 25 lines read - 1220 bytes written, 21 ms
+
+(1 ms) yes
+| ?- difind(Who(Who).
+The answer is: mary
+
+Who = mary ? ;
+The answer is: bill
+
+Who = bill ? ;
+The answer is: dc10
+
+Who = dc10
+
+(1 ms) yes
+| ?- bird(mar(mary).
+
+no
+| ?- 
+
+]0;rath014@empress:~/CS471Progs/HW5-PrologProgFiles[rath014@empress HW5-PrologProgFiles]$ exit
+exit
+
+Script done on Fri 04 Nov 2022 02:02:57 PM PDT

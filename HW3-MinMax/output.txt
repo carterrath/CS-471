@@ -1,0 +1,91 @@
+Script started on Sat 15 Oct 2022 04:02:53 PM PDT
+]0;rath014@empress:~/CS471Progs/HW3-MinMax[?1034h[rath014@empress HW3-MinMax]$ g++ minmaxclient.cpp mmtree.cpp
+]0;rath014@empress:~/CS471Progs/HW3-MinMax[rath014@empress HW3-MinMax]$ ./a.out
+In this game, there is a trinary decision made at each state. One can begin to move left, middle, or right.
+
+Maximum level of lookahead is? 2
+I am going to build the tree in my head...
+There are 9 leaves.. 
+Please enter the value of each leaf (left to right).
+L<-L<-R<-value: 1
+M<-L<-R<-value: 2
+R<-L<-R<-value: 3
+L<-M<-R<-value: 4
+M<-M<-R<-value: 5
+R<-M<-R<-value: 6
+L<-R<-R<-value: 7
+M<-R<-R<-value: 8
+R<-R<-R<-value: 9
+Tree in my head is:
+MAX:          0
+             LMR
+MIN:         000
+            LMRLMRLMR
+MAX:        123456789
+Type c to do MINMAX..c
+Doing MinMax....
+After MinMax:
+MAX:          7
+             LMR
+MIN:         147
+            LMRLMRLMR
+MAX:        123456789
+I will move towards the root's value since it is the best path
+]0;rath014@empress:~/CS471Progs/HW3-MinMax[rath014@empress HW3-MinMax]$ ./a.oug++ minmaxclient.cpp mmtree.cpp
+]0;rath014@empress:~/CS471Progs/HW3-MinMax[rath014@empress HW3-MinMax]$ g++ minmaxclient.cpp mmtree.cp./a.out[K
+In this game, there is a trinary decision made at each state. One can begin to move left, middle, or right.
+
+Maximum level of lookahead is? 3
+I am going to build the tree in my head...
+There are 27 leaves.. 
+Please enter the value of each leaf (left to right).
+L<-L<-L<-R<-value: 1
+M<-L<-L<-R<-value: 2
+R<-L<-L<-R<-value: 3
+L<-M<-L<-R<-value: 4
+M<-M<-L<-R<-value: 5
+R<-M<-L<-R<-value: 6
+L<-R<-L<-R<-value: 7
+M<-R<-L<-R<-value: 8
+R<-R<-L<-R<-value: 9
+L<-L<-M<-R<-value: 1
+M<-L<-M<-R<-value: 2
+R<-L<-M<-R<-value: 3
+L<-M<-M<-R<-value: 4
+M<-M<-M<-R<-value: 5
+R<-M<-M<-R<-value: 6
+L<-R<-M<-R<-value: 7
+M<-R<-M<-R<-value: 8
+R<-R<-M<-R<-value: 9
+L<-L<-R<-R<-value: 1
+M<-L<-R<-R<-value: 2
+R<-L<-R<-R<-value: 3
+L<-M<-R<-R<-value: 4
+M<-M<-R<-R<-value: 5
+R<-M<-R<-R<-value: 6
+L<-R<-R<-R<-value: 7
+M<-R<-R<-R<-value: 8
+R<-R<-R<-R<-value: 9
+Tree in my head is:
+MAX:          0
+             LMR
+MIN:         000
+            LMRLMRLMR
+MAX:        000000000
+           LMRLMRLMRLMRLMRLMRLMRLMRLMR
+MIN:       123456789123456789123456789
+Type c to do MINMAX..c
+Doing MinMax....
+After MinMax:
+MAX:          3
+             LMR
+MIN:         333
+            LMRLMRLMR
+MAX:        369369369
+           LMRLMRLMRLMRLMRLMRLMRLMRLMR
+MIN:       123456789123456789123456789
+I will move towards the root's value since it is the best path
+]0;rath014@empress:~/CS471Progs/HW3-MinMax[rath014@empress HW3-MinMax]$ exit
+exit
+
+Script done on Sat 15 Oct 2022 04:05:01 PM PDT
